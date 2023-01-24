@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 // import './index.css';
-import WebRoutes from './WebRoutes';
+// import WebRoutes from './WebRoutes';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <WebRoutes />
+    <App />
+    {/* <WebRoutes /> */}
   </React.StrictMode>
 );
 
