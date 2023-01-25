@@ -5,19 +5,17 @@ const About = () => {
     backgroundColor: "silver"
   });
   const Colorsetter = () => {
-    if (themeColor.backgroundColor == 'silver') {
+    if (themeColor.backgroundColor === 'silver') {
       setThemeColor({ backgroundColor: "black", color: 'white' })
-
     }
     else {
       setThemeColor({ backgroundColor: "silver" })
-
     }
   }
   return (
-    <div className="container" style={themeColor}>
-      <div  >
-        <div className="accordion" id="accordionExample">
+    <div className="container mt-20" style={themeColor}>
+      <div className='mt-20'>
+        <div className=" mt-20 accordion" id="accordionExample">
           <h6>About Us</h6>
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
