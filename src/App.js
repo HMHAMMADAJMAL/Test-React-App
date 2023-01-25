@@ -11,7 +11,7 @@ const App = () => {
     <div>
       <NavBar />
       <About />
-      <h3>Hello ! {name}</h3>
+      <h3>Welcome ! {name}</h3>
       <div className="container">
         <p>Description soemthing like that </p>
       </div>
